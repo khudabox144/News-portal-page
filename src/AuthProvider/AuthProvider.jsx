@@ -13,7 +13,7 @@ const AuthProvider = ({children}) => {
    };
 // Update User
 const updateUser=(updatedData)=>{
-    return updateCurrentUser(auth.currentUser,updatedData);
+    return updateProfile(auth.currentUser,updatedData);
 }
 //    SignOut function
    const Singout=()=>{
